@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Timer</title>
+	<link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="wrapper">
+		<form id="timerclock" title="timerclock">
+			<p id="timerclock__display" >00:00:00.000</p>
+			<button type="button" id="timer__start"  onclick="Timer.TimerOn()" >START</button>
+			<button type="button" id="timer__stop" class="invisible_key" onclick="Timer.StopTimer()">STOP</button>
+			<button type="button" id="timer__reset" onclick="Timer.ResetTimer()">RESET</button>
+		</form>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
