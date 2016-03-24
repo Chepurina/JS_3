@@ -37,7 +37,7 @@ var Timer = {
             Timer.currTime = time.getTime();
         }, 7);
 		
-		var stopkey = document.getElementById('timer__stop');
+	var stopkey = document.getElementById('timer__stop');
         var startkey = document.getElementById('timer__start');
         startkey.classList.add('invisible_key');
         stopkey.classList.remove('invisible_key');
@@ -51,7 +51,7 @@ var Timer = {
         Timer.currTime = 0;
         Timer.startTime = 0;
 		
-		var stopkey = document.getElementById('timer__stop');
+	var stopkey = document.getElementById('timer__stop');
         var startkey = document.getElementById('timer__start');
         stopkey.classList.add('invisible_key');
         startkey.classList.remove('invisible_key');
@@ -64,7 +64,7 @@ var Timer = {
         Timer.currTime = 0;
         Timer.startTime = 0;
 		
-		var stopkey = document.getElementById('timer__stop');
+	var stopkey = document.getElementById('timer__stop');
         var startkey = document.getElementById('timer__start');
         stopkey.classList.add('invisible_key');
         startkey.classList.remove('invisible_key');
